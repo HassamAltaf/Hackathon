@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: azure;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid burlywood;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: brown;
+}
+
+label{
+    display:  block;
+    margin-top: 10px;
+    color: brown;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(216, 137, 33);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.picture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(245, 164, 57);
+    box-shadow: 0 4px 8px rgba(10, 139, 156, 0.308);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', ;    
+}
+
+button:hover {
+    background-color: rgb(139, 189, 233);
+}
